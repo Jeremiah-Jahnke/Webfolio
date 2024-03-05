@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0F111A;
+    font-family: sans-serif;
+}
+
+.main-container {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header,
+section,
+footer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pfp {
+    width: 10rem;
+    height: 10rem;
+    margin: 2rem;
+    border: 2px solid #4D5160;
+    border-radius: 0.5rem;
+}
+
+.text {
+    color: #4D5160;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.sm-text {
+    font-size: small;
+}
+
+.custom-width {
+    width: 60%;
+}
+
+.icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.icons li {
+    margin: 0 0.5rem;
+}
+
+.icons li i {
+    color: #4d5160;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.icons li i:hover {
+    color: #60667a;
+}
+
+.carousel-container {
+    overflow: hidden;
+}
+
+.carousel-container {
+    overflow: hidden;
+    width: 20rem;
+}
+
+.carousel {
+    display: flex;
+    padding: 20px 0;
+    width: 100%;
+    transition: all 1s ease;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 18.75rem;
+    height: fit-content;
+    margin: 0 0 0 1rem;
+    background-color: #181b29;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #4D5160;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.carousel-text {
+    padding: 20px;
+}
+
+.carousel-text h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #4D5160;
+}
+
+.carousel-text p {
+    margin-bottom: 20px;
+    color: #4D5160;
+}
+
+.carousel-text a {
+    display: flex;
+    align-items: center;
+    color: #4D5160;
+    text-decoration: none;
+}
+
+.carousel-text a i {
+    margin-right: 5px;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: left;
+}
+
+.project-buttons a {
+    margin: 0 0;
+    color: #4D5160;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-buttons a i {
+    font-size: 1rem;
+}
+
+.project-buttons a:hover {
+    color: #60667a;
+}
+
+hr {
+    width: 35%;
+    border-color: #4D5160;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mb1 {
+    margin-bottom: 1rem;
+}
+
+.mt1 {
+    margin: 1rem 0 0 0;
+}

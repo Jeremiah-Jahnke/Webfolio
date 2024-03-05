@@ -1,0 +1,14 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "Portfolio made to show my competence in web development.",
+	"main": "Index.js",
+	"scripts": {},
+	"keywords": [],
+	"author": "Jeremiah J.",
+	"license": "GPL-3.0-only",
+	"dependencies": {
+		"ejs": "^3.1.9",
+		"express": "^4.18.2"
+	}
+}
