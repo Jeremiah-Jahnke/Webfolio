@@ -2,8 +2,8 @@
 - Node Js
     - https://nodejs.org/
 - Express
-    - ``` npm -i express ```
+    - ``` npm i express ```
 - EJS
-    - ``` npm -i ejs ```
+    - ``` npm i ejs ```
 - All at once
-    - ``` npm -i express ejs ```
+    - ``` npm i express ejs ```
